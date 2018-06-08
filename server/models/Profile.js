@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
@@ -71,7 +70,7 @@ const ProfileSchema = new Schema({
                 type: String,
                 required: true
             },
-            degre: {
+            degree: {
                 type: String,
                 required: true
             },
